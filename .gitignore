@@ -1,0 +1,24 @@
+# 环境变量（包含 API Key，绝对不能上传！）
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 向量数据库（文件很大，且是本地生成的）
+memories/chroma_db/
+memories/*.txt
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# IDE 配置
+.vscode/
+.idea/
+*.iml
+
+# 日志文件
+*.log
